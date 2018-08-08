@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TutbySuite">
+
+	<test name="TutbyTest">
+
+		<parameter name="Login" value="victestingtask" />
+		<parameter name="Password" value="testtask12345" />
+
+
+		<groups>
+
+			<run>
+				<include name="count letters" />
+				<exclude name="login tut.by" />
+			</run>
+
+		</groups>
+
+		<classes>
+			<class name="by.htp.drozdovskaya.automation.TutbyLoginTest" />
+
+			<class name="by.htp.drozdovskaya.automation.TutbyMailTest" />
+		</classes>
+
+	</test>
+
+</suite>
