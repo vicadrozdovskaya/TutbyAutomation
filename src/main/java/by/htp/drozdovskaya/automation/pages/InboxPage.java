@@ -18,7 +18,7 @@ public class InboxPage extends AbstractPage {
 			String textFromTag = driver.findElement(By.xpath("//span[@class='mail-LabelList-Item_count']")).getText();
 			quantity = Integer.parseInt(textFromTag);
 		} catch (NoSuchElementException e) {
-			System.out.println("непрочитанных писем нет");
+			System.out.println("РЅРµРїСЂРѕС‡РёС‚Р°РЅРЅС‹С… РїРёСЃРµРј РЅРµС‚");
 		}
 		return quantity;
 	}

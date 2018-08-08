@@ -30,7 +30,7 @@ public class LoginPage extends AbstractPage {
 		inputLogin.sendKeys(username);
 		inputPassword = driver.findElement(By.xpath("//input[@name='password']"));
 		inputPassword.sendKeys(password);
-		buttonSubmit = driver.findElement(By.xpath("//input[@value='Войти']"));
+		buttonSubmit = driver.findElement(By.xpath("//input[@value='Р’РѕР№С‚Рё']"));
 		buttonSubmit.click();
 	}
 

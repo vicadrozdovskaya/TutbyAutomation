@@ -11,8 +11,6 @@ import by.htp.drozdovskaya.automation.steps.Steps;
 public class TutbyMailTest {
 	
 	private Steps steps;
-//	private final String USERNAME = "victestingtask";
-// final String PASSWORD = "testtask12345";
 
 	@Parameters({"Login", "Password"})
 	@BeforeTest(description = "Init browser", groups = {"count letters"})

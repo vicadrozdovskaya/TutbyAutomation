@@ -14,7 +14,7 @@ public class TutbyMainPage extends AbstractPage {
 	}
 
 	public void clickOnMail() {
-		driver.findElement(By.xpath("//a[@title='Почта']")).click();
+		driver.findElement(By.xpath("//a[@title='РџРѕС‡С‚Р°']")).click();
 	}
 
 	public void openPage() {
